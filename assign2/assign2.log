@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.7)  18 AUG 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.7)  18 AUG 2024 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,6 +1021,17 @@ tex
 )) (./gvv.sty
 \c@matchleft=\count331
 \c@matchright=\count332
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 m
+       
+? 
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks43
@@ -1237,6 +1248,10 @@ LaTeX Info: Redefining \nameref on input line 47.
 \openout5 = `assign2.out'.
 
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -1271,23 +1286,36 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 File: ts1txr.fd 2000/12/15 v3.1
 )
 Underfull \hbox (badness 10000) in paragraph at lines 60--63
-[]\OT1/txr/m/n/12 Sum of the n terms of the se-ries
+[]\OT1/txr/m/n/12 Sum of the $\OML/txmi/m/it/12 n$ \OT1/txr/m/n/12 terms of the
+ se-ries
  []
+
+LaTeX Font Info:    Trying to load font information for OML+txr on input line 1
+32.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
+File: omltxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 132.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
+ [2
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 172--175
-[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 b[]$$>$$\OT1/txr/m/n/12 1$ for i$=$$1\
-OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txmi/m/it/12 ; :::::\OT1/txr/m/n/12 10
-1$.Suppose
+[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 b[]$>$\OT1/txr/m/n/12 1$ for i$=$$1\OM
+L/txmi/m/it/12 ; \OT1/txr/m/n/12 2$,...$101$.Suppose
  []
 
-[2
+
+Underfull \hbox (badness 2293) in paragraph at lines 172--175
+[][] \OML/txmi/m/it/12 b[]$\OT1/txr/m/n/12 ,$[][] \OML/txmi/m/it/12 b[]$\OT1/tx
+r/m/n/12 ,...$[][] \OML/txmi/m/it/12 b[]$ \OT1/txr/m/n/12 are in Arith-metic
+ []
+
+[3
 
 ] (./assign2.aux)
 
@@ -1300,13 +1328,13 @@ Package rerunfilecheck Info: Checksums for `assign2.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29678 strings out of 478287
- 584078 string characters out of 5849290
- 867692 words of memory out of 5000000
- 47170 multiletter control sequences out of 15000+600000
- 526474 words of font info for 141 fonts, out of 8000000 for 9000
+ 29703 strings out of 478287
+ 584462 string characters out of 5849290
+ 855693 words of memory out of 5000000
+ 47190 multiletter control sequences out of 15000+600000
+ 527552 words of font info for 142 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,413b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,6n,96p,425b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1314,10 +1342,10 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assign2.pdf (2 pages, 46976 bytes).
+Output written on assign2.pdf (3 pages, 48080 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 79 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
